@@ -1,0 +1,77 @@
+body {
+    background: #F8F8FF;
+}
+
+.wrapper {
+    
+    width: 720px;
+    height: 400px;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #E6E6FA;
+    border-radius: 10px;
+    background: white;
+}
+
+.slider {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 9999px;
+    height: 340px;
+    transition: 0.5s linear;
+}
+
+.slider__block {
+    width: 180px;
+    text-align: center;
+    padding-top: 20px;    
+}
+
+.block p {
+    padding-bottom: 7px;
+    font-family: 'Arial', sans-serif;
+}
+
+.img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.day-of-week {
+    font-size: 15px;
+    
+}
+
+.date {
+    font-weight: bold;
+    
+}
+
+.night-temperature {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.day-temperature {
+    font-weight: bold;
+    
+}
+
+.slider-btn {
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    border: 1px solid #87CEEB;
+    width: 70px;
+    height: 33px;
+    box-shadow: inset 0 -3px 0 #87CEEB;
+}
+
+.slider-btn__btns {
+    width: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
